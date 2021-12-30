@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Is  here */
+#header{
+width: 100%;
+float: left;
+background: rgb(211, 208, 208);
+padding: 10px 0px;
+}
+.logo-part{
+width: 20%;
+float: left;
+padding: 10px;
+}
+.logo-part a img{
+    width: 55%;
+    float: left;       
+} 
+.menu-part{
+width: 50%;
+float: left;
+padding: 10px;
+}
+
+.menu-part nav{
+
+}
+.menu-part nav ul{
+margin: 25px auto;
+text-align: center;
+}
+.menu-part nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.menu-part nav ul li a{
+text-decoration: none;
+font-size: 20px;
+font-weight: 600;
+color: black;
+}
+.search-part{
+width: 30%;
+float: left;
+text-align: right;
+padding: 15px 0px;
+}
+.search-part input{
+padding: 6px;
+border: 2px solid rgb(119, 118, 118);
+border-radius: 20px;
+font-size: 18px;
+}
+.search-part i{
+font-size: 20px;
+margin: 5px;
+margin-top: 5px;
+}
+.search-part input::placeholder{
+    text-align: end;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* Hero Section */
+#hero{
+width: 1005;
+float: left;
+padding: 70px;
+}
+.hero-writing-part{
+width: 50%;
+float: left;
+}
+.hero-writing-part h1{
+font-size: 50px;
+color: maroon;
+}
+.hero-writing-part h2{
+font-size: 80px;
+line-height: 66px;
+}
+.hero-writing-part p{
+margin: 30px 0px;
+font-size: 18px;
+width: auto;
+}
+.hero-writing-part a button{
+background: transparent;
+border: 2px solid gray;
+padding: 20px 30px;
+border-radius: 20px;
+font-size: 17px;
+font-weight: 700;
+color: grey;
+}
+.social-icons{
+
+}
+.social-icons i{
+    font-size: 30px;
+    color:black;
+}
+.hero-image-part{
+width: 40%;
+float: right;
+}
+.hero-image-part-img{
+  
+}
+body{
+    background-image: url(../img/hero-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
